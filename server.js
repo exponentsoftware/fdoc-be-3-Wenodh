@@ -11,8 +11,7 @@ mongoose
     .connect(URL, { autoIndex: false })
     .then(() => console.log('mongodb connected'))
     .catch((err) => console.error('connection err', err));
-require('./routes/todo.routes')(app);
-require('./routes/auth.routes')(app);
+require('./routes/customer.routes')(app);
 app.get('/', (req, res) => {
     res.status(200).json({ success: true });
 });

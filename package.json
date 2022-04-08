@@ -47,6 +47,7 @@
         "mongodb": "^4.2.2",
         "mongodb-connection-string-url": "^2.4.1",
         "mongoose": "^6.1.7",
+        "mongoose-paginate-v2": "^1.6.3",
         "mpath": "^0.8.4",
         "mquery": "^4.0.0",
         "ms": "^2.0.0",
